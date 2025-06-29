@@ -112,7 +112,7 @@ Export parsed data to JSON. If a destination path is provided, the JSON will be 
 #### `getMetadata(): array`
 
 Return a detailed metadata array containing Package, Dublin Core, LOM and LOM-ES
-information together with the page tree.
+information.
 
 - **Throws:** `Exception` if the XML cannot be parsed
 - **Returns:** array - Metadata and content structure
